@@ -19,24 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:5173/')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_Kim Hair Salon/span_ng nhpng k'))
+WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/TestOpsIntegration/Page_Kim Hair Salon/input_S in thoi_username'), '0378507493')
+WebUI.setText(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Username_username'), 
+    'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TestOpsIntegration/Page_Kim Hair Salon/input_Mt khu_password'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Password_password'), 
+    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_Kim Hair Salon/button_ng nhp'))
+WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_Kim Hair Salon/button_Thng tin ti khon'))
+WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Medicaid_programs'))
 
-WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_Kim Hair Salon/h1_Thng tin khch hng'))
+WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
 
-WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_Kim Hair Salon/button_ng xut'))
+WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/td_21'))
+
+WebUI.setText(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/textarea_Comment_comment'), 
+    'Appointment')
+
+WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Book Appointment'))
 
 WebUI.closeBrowser()
 
