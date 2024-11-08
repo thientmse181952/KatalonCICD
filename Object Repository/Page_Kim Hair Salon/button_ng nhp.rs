@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ng nhp</name>
+   <tag></tag>
+   <elementGuidId>aabb8ec9-ea3b-44fd-aaee-21b9ed5b7bde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.ant-btn.css-dev-only-do-not-override-ccdg5a.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid.login-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Đăng nhập&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1168563b-6cc9-4c5a-94f3-4ad8ce71c48d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>33aefa24-3fbd-41a7-ba0a-b0e95ac1162b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn css-dev-only-do-not-override-ccdg5a ant-btn-primary ant-btn-color-primary ant-btn-variant-solid login-button</value>
+      <webElementGuid>f5bf1379-226f-4036-b433-eff0b549464b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Đăng nhập</value>
+      <webElementGuid>f9badb69-c25f-45b3-bb12-e6962b5a3ee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;authen-template&quot;]/div[@class=&quot;authen-template__form&quot;]/form[@class=&quot;ant-form ant-form-horizontal css-dev-only-do-not-override-ccdg5a form&quot;]/div[@class=&quot;ant-form-item css-dev-only-do-not-override-ccdg5a&quot;]/div[@class=&quot;ant-row ant-form-item-row css-dev-only-do-not-override-ccdg5a&quot;]/div[@class=&quot;ant-col ant-form-item-control css-dev-only-do-not-override-ccdg5a&quot;]/div[@class=&quot;ant-form-item-control-input&quot;]/div[@class=&quot;ant-form-item-control-input-content&quot;]/button[@class=&quot;ant-btn css-dev-only-do-not-override-ccdg5a ant-btn-primary ant-btn-color-primary ant-btn-variant-solid login-button&quot;]</value>
+      <webElementGuid>1253385e-9ad0-43d0-8333-8b5990c804ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>00249872-46da-43ee-b59e-1d3083473ed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/form/div[3]/div/div/div/div/button</value>
+      <webElementGuid>2ea14565-29fc-4231-8f80-e6cbf10bbb79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mật khẩu'])[1]/following::button[1]</value>
+      <webElementGuid>4e4ea634-34dd-49d7-8f2d-7b82346174ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Số điện thoại'])[1]/following::button[1]</value>
+      <webElementGuid>a46f5dc2-b314-420c-8bd7-164bc1c093dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chưa có tài khoản? Đăng ký tại đây'])[1]/preceding::button[1]</value>
+      <webElementGuid>0898293a-d299-4a49-9d2a-76dec2efadea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>6d73e8a2-4608-43ab-bb3b-c5f56f3d6b1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Đăng nhập' or . = 'Đăng nhập')]</value>
+      <webElementGuid>0937f479-a084-48e5-bc30-a21940804b04</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
