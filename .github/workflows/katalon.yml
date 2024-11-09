@@ -1,0 +1,23 @@
+name: Run Katalon Tests
+
+on:
+  push:
+    branches:
+      - main  # hoặc thay bằng tên branch bạn muốn theo dõi
+
+jobs:
+  katalon:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Katalon
+        run: |
+          curl -O https://raw.githubusercontent.com/katalon-studio/katalon-studio/main/scripts/katalon-studio.sh
+          chmod +x katalon-studio.sh
+
+      - name: Run Katalon tests
+        run: |
+          ./katalon-studio.sh -noSplash -runMode=console -projectPath="KatalonCICD.prj" -retry=0 -testSuitePath="Test Suites/TestOpsIntegration" -executionProfile="default" -browserType="Chrome"
