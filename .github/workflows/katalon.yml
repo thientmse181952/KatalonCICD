@@ -14,6 +14,7 @@ jobs:
 
     env:
       KATALON_API_KEY: ${{ secrets.KATALON_API_KEY }}
+      GITHUB_WORKSPACE: ${{ github.workspace }}
 
     steps:
       - name: Checkout code
