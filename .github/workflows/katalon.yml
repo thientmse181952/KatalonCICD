@@ -3,7 +3,7 @@ name: Run Katalon Tests
 on:
   push:
     branches:
-      - main  
+      - main  # hoặc branch bạn cần
 
 jobs:
   katalon:
@@ -12,10 +12,13 @@ jobs:
     container:
       image: katalonstudio/katalon  # Docker image chính thức của Katalon
 
+    env:
+      KATALON_API_KEY: ${{ secrets.KATALON_API_KEY }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Run Katalon tests
         run: |
-          katalonc -noSplash -runMode=console -projectPath="$GITHUB_WORKSPACE/KatalonCICD.prj" -retry=0 -testSuitePath="Test Suites/TestOpsIntegration" -executionProfile="default" -browserType="Chrome"
+          katalonc -noSplash -runMode=console -projectPath="$GITHUB_WORKSPACE/KatalonCICD.prj" -retry=0 -testSuitePath="Test Suites/TestOpsIntegration" -executionProfile="default" -browserType="Chrome" -apiKey=$KATALON_API_KEY
