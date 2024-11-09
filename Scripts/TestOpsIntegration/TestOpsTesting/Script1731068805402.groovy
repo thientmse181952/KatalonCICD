@@ -26,7 +26,7 @@ WebUI.maximizeWindow()
 WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.setText(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Username_username'), 
-    'John Doe')
+    'John Doe 2')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/input_Password_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
