@@ -3,7 +3,7 @@ name: Run Katalon Tests
 on:
   push:
     branches:
-      - main  # hoặc branch bạn cần
+      - main  
 
 jobs:
   katalon:
@@ -18,4 +18,4 @@ jobs:
 
       - name: Run Katalon tests
         run: |
-          katalonc -noSplash -runMode=console -projectPath="KatalonCICD.prj" -retry=0 -testSuitePath="Test Suites/TestOpsIntegration" -executionProfile="default" -browserType="Chrome"
+          katalonc -noSplash -runMode=console -projectPath="$GITHUB_WORKSPACE/KatalonCICD.prj" -retry=0 -testSuitePath="Test Suites/TestOpsIntegration" -executionProfile="default" -browserType="Chrome"
