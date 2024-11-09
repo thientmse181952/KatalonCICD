@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healt
 WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/td_21'))
 
 WebUI.setText(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/textarea_Comment_comment'), 
-    'Appointment Information')
+    'Appointment information')
 
 WebUI.click(findTestObject('Object Repository/TestOpsIntegration/Page_CURA Healthcare Service/button_Book Appointment'))
 
