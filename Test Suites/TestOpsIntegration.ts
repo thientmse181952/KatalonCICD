@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>49219f2a-d33d-4064-b065-48e84b0b4f5a</testSuiteGuid>
    <testCaseLink>
-      <guid>d4d0d041-f86d-488d-ad9e-537a44761033</guid>
+      <guid>df46a1ca-71e7-466a-b2ac-fc9373430baa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestOpsIntegration/TestOpsTesting</testCaseId>
